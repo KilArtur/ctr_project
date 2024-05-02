@@ -12,7 +12,7 @@ from src.entities.train_params import TrainingParams
 
 logger = logging.getLogger(__name__)
 handler = logging.StreamHandler(sys.stdout)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 logger.addHandler(handler)
 
 
